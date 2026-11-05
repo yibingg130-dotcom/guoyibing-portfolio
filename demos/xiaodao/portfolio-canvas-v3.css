@@ -1,0 +1,10 @@
+
+html, body { background: transparent !important; }
+body::before { content: none !important; }
+body > .phone { isolation: isolate; }
+@media (min-width: 1500px) {
+  body { grid-template-columns: 312px 492px 432px; gap: 64px; padding: 24px; }
+  body > aside { width: 260px; zoom: 1.2; }
+  body > .phone { zoom: 1.2; }
+  body > .journey-details { zoom: 1.2; }
+}
