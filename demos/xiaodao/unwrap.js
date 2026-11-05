@@ -1,0 +1,7 @@
+let unwrapAssets={};const unwrapReady=fetch('unwrap-assets.json').then(r=>r.json()).then(a=>unwrapAssets=a);
+function unwrapImage(key,cls){return `<img class="${cls}" src="${unwrapAssets[key]}" alt="">`}
+async function showUnwrapCard(){
+ await unwrapReady;
+ postLayer(`<div class="post-dimmer"></div><div class="unwrap-card"><div class="unwrap-purple"></div>${unwrapImage('imgRectangle408','unwrap-paper')}<h2>冰冻兔砸送出的礼物</h2><img class="unwrap-product" src="${asset(products[product].node,products[product].key)}" alt="${escapeHtml(products[product].name)}"><p class="unwrap-name">${currentProduct()}</p>${unwrapImage('imgVector17773','unwrap-rule')}<div class="unwrap-address"><b>收货地址(朋友不会看到)</b><button type="button" data-unwrap-address>去添加${unwrapImage('imgGroup501','')}</button></div><input class="unwrap-address-input" aria-label="收货地址" placeholder="填写收货地址" hidden>${unwrapImage('imgGroup2147232913','unwrap-envelope')}<button class="unwrap-repeat" data-repeat>重复体验</button><div class="unwrap-brand">更多潮玩好物尽在${unwrapImage('imgGroup375','')}</div>${unwrapImage('imgExecCbcb480ED9Ec4E80979D1De5C99434013','unwrap-cat')}<button class="unwrap-close" data-post="share" aria-label="关闭礼物卡片">${unwrapImage('imgGroup2147232508','')}</button></div>`,'received');
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-unwrap-address]');if(!b)return;const input=$('.unwrap-address-input');input.hidden=!input.hidden;if(!input.hidden)input.focus()});
