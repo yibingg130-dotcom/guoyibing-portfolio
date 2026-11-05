@@ -1,0 +1,29 @@
+/* Only the presentation canvas uses the portfolio palette. */
+body {
+  position: relative;
+  isolation: isolate;
+  background-color: #fbf6f8;
+  background-image:
+    radial-gradient(ellipse 46% 42% at 17% 12%, #fbd6e6 0%, rgba(251, 214, 230, 0.35) 45%, transparent 72%),
+    radial-gradient(ellipse 32% 30% at 88% 90%, #fbe3ee 0%, transparent 70%),
+    linear-gradient(170deg, #fdf4f8 0%, #fdfbfc 30%, #fff 100%);
+}
+
+/* A non-interactive texture behind the step panels and device. */
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(67, 16, 46, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(67, 16, 46, 0.05) 1px, transparent 1px);
+  background-size: 96px 96px;
+  mask-image: radial-gradient(ellipse 90% 80% at 50% 45%, #000 30%, transparent 100%);
+}
+
+/* Keep the phone and its own interface in a separate foreground layer. */
+body > .phone {
+  isolation: isolate;
+}
