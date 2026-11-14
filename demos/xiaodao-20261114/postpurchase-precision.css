@@ -1,0 +1,26 @@
+/* Product edge clipping applies everywhere the original photo appears. */
+img[src$="3d50da17-78a7-441a-a912-fd0ee3c1ab07.png"]{clip-path:inset(.8% 0)}
+.post-card{background:transparent;border-radius:0;isolation:isolate}
+.post-card .post-paper{z-index:0;pointer-events:none}
+.post-card .post-decoration.left{z-index:-1;left:29px;top:-70px;width:118px;height:117px}
+.post-card .post-decoration.cat{z-index:3;right:15px;top:-49px;width:106px;height:106px}
+.post-card h2{position:absolute;top:9px;left:25px;margin:0;font-size:20px;line-height:29px;color:#7c5ae7;z-index:4;font-weight:700}
+.post-card .post-product{position:absolute;left:33px;top:55px;width:243.555px;height:161.178px;margin:0;object-fit:contain;z-index:1}
+.post-card .post-name{position:absolute;left:28px;top:225px;width:265px;max-height:38px;margin:0;font-size:11.939px;line-height:17px;overflow:hidden;z-index:2}
+.post-card .post-brand{font-size:10.944px;background:#fff9f9;border-radius:2px;padding:0 3px}
+.post-card .post-order{position:absolute;left:28px;top:269px;margin:0;font-size:10.944px!important;line-height:15px;z-index:2;color:#999;max-width:265px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.post-card .post-envelope{height:125px;z-index:2;pointer-events:none}
+.post-card .post-primary{position:absolute;left:50%;top:301px;transform:translateX(-50%);margin:0;min-width:129.82px;height:41.787px;z-index:4;font-size:20px!important;padding:0 20px}
+.post-card .post-primary:active{transform:translateX(-50%) scale(.97)}
+.post-card .post-star{z-index:3}
+.post-card.self .post-decoration.left{z-index:3;left:-9px;top:-37px;width:50px;height:75px}
+.post-close{padding:0;background:transparent;border:0;display:grid;place-items:center;font-size:0!important}
+.post-close img{display:block;width:33px;height:33px}
+.share-preview{width:227.186px;height:265px;left:calc(50% - 113.593px);padding:0;background:linear-gradient(180deg,#eee5ff,white 74%);isolation:isolate}
+.share-preview>img:first-child{position:absolute;top:24px;left:30.456px;width:166.274px;height:110.036px;border-radius:8px;object-fit:contain}
+.share-preview p{position:absolute;top:140px;left:30.456px;width:166.274px;height:34px;margin:0;font-size:12px;line-height:17px;overflow:hidden;z-index:1}
+.share-preview .share-spec{position:absolute;top:175px;left:0;right:0;display:flex;gap:3px;align-items:center;justify-content:center;font-size:14px;line-height:20px;z-index:3}
+.share-spec-icon{width:10.046px;height:10.046px;display:block}
+.share-preview-envelope{height:83.859px;z-index:2;pointer-events:none}
+.share-friends button>span{display:flex;align-items:center;gap:0}
+.friend-share-icon{width:24.11px;height:24.11px;display:block}

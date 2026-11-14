@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="14.6674" height="13.2698" viewBox="0 0 14.6674 13.2698" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 476">
+<mask id="stroke0_0_13" fill="white">
+<path d="M1.20286 6.04924H13.4657V10.2697C13.4657 11.9265 12.1225 13.2697 10.4657 13.2697H4.20286C2.54601 13.2697 1.20286 11.9265 1.20286 10.2697V6.04924Z"/>
+</mask>
+<path id="Rectangle 369" d="M1.20286 6.04924H13.4657V10.2697C13.4657 11.9265 12.1225 13.2697 10.4657 13.2697H4.20286C2.54601 13.2697 1.20286 11.9265 1.20286 10.2697V6.04924Z" stroke-width="3" stroke="#C7C7C7" mask="url(#stroke0_0_13)"/>
+<path id="Rectangle 370" d="M2.00012 3.29035H12.6674C13.3578 3.29035 13.9174 3.84999 13.9174 4.54035V5.40385C13.9174 6.0942 13.3578 6.65385 12.6674 6.65385H2.00012C1.30977 6.65385 0.750125 6.0942 0.750125 5.40385V4.54035C0.750125 3.84999 1.30977 3.29035 2.00012 3.29035Z" stroke-width="1.5" stroke="#C7C7C7"/>
+<path id="Vector 167" d="M7.01886 2.65884C5.39925 1.18246 2.398 -0.851426 3.34994 2.82411" stroke-width="1.5" stroke-linecap="round" stroke="#C7C7C7"/>
+<path id="Vector 168" d="M7.28381 2.65884C8.90343 1.18246 11.9047 -0.851426 10.9527 2.82411" stroke-width="1.5" stroke-linecap="round" stroke="#C7C7C7"/>
+<path id="Vector 169" d="M7.33444 6.68112L7.28464 12.4934" stroke-width="1.5" stroke-linecap="round" stroke="#C7C7C7"/>
+</g>
+</svg>

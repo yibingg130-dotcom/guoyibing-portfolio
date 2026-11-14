@@ -1,0 +1,3 @@
+.journey-intro{margin:-14px 0 26px;padding:16px 18px;background:#efe7ff;border-left:4px solid #9161e8;border-radius:0 10px 10px 0;font-size:18px;font-weight:700;line-height:1.7;color:#59318f}
+#conversation .user{width:fit-content;max-width:261px;min-height:40px;padding:10px;box-sizing:border-box;background:#d5d8ff;border-radius:16px;font-size:15px;font-weight:500;line-height:20px;text-align:left;overflow-wrap:anywhere;margin-left:auto;margin-right:0}
+.thought-track{transition:transform .2s ease-out}

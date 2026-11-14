@@ -1,0 +1,10 @@
+.major-product{position:relative}.major-product .product-picture{height:185px}.major-product .post-brand{font-size:11px;color:#ffaeae;background:#fff9f9}.major-price{display:flex;align-items:center;gap:4px}.major-price .minor{margin:0 0 0 auto}.major-price del{font-size:9px;color:#aaa}.major-delivery{text-align:right;font-size:11px;color:#b6b6b6;line-height:15px;margin:0}.sale-tag{position:absolute;right:0;top:40px;background:linear-gradient(90deg,#ff631f,#ff2463);color:white;padding:4px 7px;font-size:11px;border-radius:4px}.major-ranking{position:relative;width:100%;height:528px;border-radius:16px;overflow:hidden;background:white}.major-ranking>img{position:absolute;width:102.56%;height:150.35%;left:-1.12%;top:-38.99%;max-width:none}.major-ranking>button{position:absolute;left:0;width:100%;height:14.2857%;background:transparent}.major-ranking>button:hover{background:#9e7cff12}.major-ranking>button:focus-visible{outline:2px solid #9161e8;outline-offset:-2px}
+
+/* The ranking source is now cropped to the seven rows, excluding screenshot borders. */
+.major-ranking>img{width:100%;height:100%;left:0;top:0}
+
+.major-ranking{height:auto;aspect-ratio:1232 / 1820}
+
+.major-ranking .ranking-name-ink{position:absolute;overflow:hidden;pointer-events:none;z-index:1}.major-ranking .ranking-name-ink img{position:absolute;display:block;max-width:none;filter:url(#rank-name-color);pointer-events:none}.major-ranking>button{z-index:2}
+
+.major-ranking .ranking-stat-mask{position:absolute;z-index:1;overflow:hidden;background:#fff;pointer-events:none}.major-ranking .ranking-stat-line{position:absolute;left:0;width:100%;overflow:hidden}.major-ranking .ranking-stat-line img{position:absolute;display:block;max-width:none;pointer-events:none}

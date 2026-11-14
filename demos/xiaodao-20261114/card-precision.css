@@ -1,0 +1,52 @@
+/* Figma: 1:1550, 23:849, 24:1940, 26:2506, 32:4432. Values are at 390px artboard scale. */
+.precise-product{container-type:inline-size;position:relative;width:calc(100% - 60px);max-width:297px;margin-left:43px;margin-right:17px;border-radius:16px;background:transparent;overflow:visible}
+.precise-product .tabs{height:14.1414cqi;display:flex;align-items:flex-end;background:transparent;overflow:visible}
+.precise-product .tabs button{height:10.101cqi;flex:1;min-width:0;padding:0;display:flex;align-items:center;justify-content:center;border-top:0.45px solid #fff;background:linear-gradient(#dacfff,#fffcfc);color:#6f698d;font-size:4.8485cqi;font-weight:700;line-height:1;white-space:nowrap;border-radius:0}
+.precise-product .tabs button:first-child{border-top-left-radius:9.6px}.precise-product .tabs button:last-child{border-top-right-radius:9.6px}
+.precise-product .tabs button.active{height:14.1414cqi;background:linear-gradient(172.08deg,#7230ff 12.404%,#d8c9ff 88.645%,#d6c9ff00 138.32%);border:0.45px solid #fff;border-bottom:0;border-radius:9.6px 9.6px 0 0;box-shadow:inset 0 2.25px 1.8px #ffffff5e;color:#feffff;font-size:5.6566cqi}
+.precise-product .product-body{position:relative;background:#fff;border-radius:0 0 16px 16px;overflow:hidden}
+.precise-product.rank-product .product-body{border-radius:16px}
+.precise-product .product-picture{height:63.9731cqi;padding:4.3771cqi 0 2.6936cqi;background:#fff}
+.precise-product .product-picture img{width:58.5859cqi;height:56.9024cqi;object-fit:contain}
+.precise-product.rank-product .product-picture img{height:58.5859cqi}
+.precise-product .description{height:22.5589cqi;padding:0;position:relative;font-weight:500;font-size:4.5667cqi;line-height:6.3973cqi;color:#1c1533}
+.precise-product .product-title{height:12.7946cqi;margin:0 8.4175cqi;line-height:6.3973cqi;overflow:hidden}
+.precise-product .post-brand{display:inline;background:#fff9f9;color:#ffaeae;border-radius:2.087px;padding:0 1.2626cqi;font-size:3.8643cqi;font-weight:400;line-height:4.7387cqi;vertical-align:1px;white-space:nowrap}
+.precise-product .product-detail{position:absolute;right:10.101cqi;top:6.734cqi;height:5.3872cqi;display:flex;align-items:center;gap:0;margin:0;padding:0;background:white;color:#b6b6b6;font-size:3.7037cqi;line-height:5.3872cqi;font-weight:500;white-space:nowrap}
+.precise-product .product-detail img{display:block;flex:0 0 16px;transform:scaleX(-1)}
+.precise-product .major-price{position:absolute;left:8.4175cqi;bottom:1.3468cqi;height:6.3973cqi;gap:0;display:flex;align-items:baseline;white-space:nowrap}
+.precise-product .price{font-family:MiSans,'PingFang SC','Microsoft YaHei',sans-serif;font-size:5.3872cqi;font-weight:500;line-height:6.3973cqi;color:#f43}
+.precise-product .currency{font-size:3.7037cqi}.precise-product .product-pack{font-size:4.0404cqi;font-weight:500;color:#f43}
+.precise-product.value-product .price{font-size:4.9246cqi}.precise-product.value-product .currency{font-size:3.3855cqi}
+.precise-product .major-price del{margin-left:0.6734cqi;color:#7b7b7b;font-size:3.0778cqi;font-weight:500;line-height:1}.precise-product .major-price del span{font-size:2.1158cqi}
+.precise-product .major-delivery{position:absolute;right:9.7643cqi;top:14.1414cqi;margin:0;color:#b6b6b6;font-size:3.7037cqi;font-weight:500;line-height:5.3872cqi;text-align:right}
+.precise-product.rank-product .major-delivery{color:#b99fff}
+.precise-product .product-actions{display:grid;grid-template-columns:96fr 158fr;gap:2.6936cqi;padding:0 5.8923cqi 4.0404cqi;height:16.835cqi}
+.precise-product .product-actions button{height:12.7946cqi;min-width:0;width:100%;padding:0;display:flex;align-items:center;justify-content:center;border-radius:29.25px;font-size:4.714cqi;font-weight:700;line-height:1.4;letter-spacing:0.2357cqi;white-space:nowrap;box-shadow:0 0 32.925px #e6faff}
+.precise-product .product-actions .outline{color:#8448fe;border:1px solid #8448fe;background:#fff}
+.precise-product .product-actions .primary{background:linear-gradient(178.14deg,#7348ff 7.5715%,#9748fe 104.84%);color:#fff;border:0}
+.precise-product .sale-tag{position:absolute;z-index:1;right:0;top:0;width:20.8125cqi;height:7.9542cqi;display:flex;align-items:center;justify-content:center;padding:0;border-radius:9px 1px 9px 1px;background:linear-gradient(90deg,#fc510d,#ff2358);font-size:4.0404cqi;font-weight:700;line-height:1;color:#fff}
+#recommendation>.product-refresh{width:calc(100% - 60px);max-width:297px;margin:8px 17px 10px 43px;padding:0;height:18px;display:flex;align-items:center;justify-content:center;gap:0.51px;font-size:12px;font-weight:500;line-height:17px;color:#6f698d}
+.product-refresh-icon{display:flex;align-items:center;justify-content:center;width:16.971px;height:16.971px}.product-refresh-icon>img{display:block;transform:rotate(45deg)}
+.precise-product .rank-badge{position:absolute;z-index:1;width:23.951px;height:23.233px;right:12.049px;top:6.25px}.rank-badge>img{position:absolute;left:3.817px;top:4.667px;transform:rotate(21.82deg)}.rank-badge>b{position:absolute;left:9.41px;top:5.9px;width:5.227px;color:#fff;font-family:MiSans,'Microsoft YaHei',sans-serif;font-size:9.488px;font-weight:700;line-height:12.633px;transform:rotate(2.77deg)}
+.precise-product .rank-badge-2{width:27.634px;height:26.9px;right:14.366px;top:4.25px}.rank-badge-2>img{left:4.428px;top:5.491px;transform:rotate(23.45deg)}.rank-badge-2>b{left:11.08px;top:6.5px;width:auto;font-size:11px;line-height:15.04px;transform:rotate(-.34deg)}
+.precise-product .rank-badge-3{width:27.708px;height:27.029px;right:10.292px;top:4.25px}.rank-badge-3>img{left:4.4885px;top:5.541px;transform:rotate(24.43deg)}.rank-badge-3>b{left:10.82px;top:7.1px;width:auto;font-size:11px;line-height:15.088px;transform:rotate(.64deg)}
+
+/* Typography shared by the home, condition sheet and checkout designs. */
+.status>b{font-family:'SF Pro Text',Arial,sans-serif;font-size:14px;font-weight:600;letter-spacing:-.28px}
+.shortcuts button,.suggest>button,.reply{font-weight:500}
+.condition-row,.condition-choices button{font-weight:700}
+.condition-value{font-weight:700}
+.self-delivery b{font-weight:700}
+.self-address-line p,.self-address-line small,.pay-brand,.pay-product p,.pay-product>div>span,.payment-method label,.bank-detail,.payment-more{font-weight:500}
+
+.precise-product .post-brand.compact-brand{font-size:3.7037cqi;border-radius:1.875px}
+
+.precise-product .product-picture{align-items:flex-start}.precise-product .product-image-slot{display:block;position:relative;overflow:hidden;flex-shrink:0}.precise-product .product-image-slot>img{position:absolute;max-width:none;object-fit:fill}
+
+/* Figma detail group: x269..325.07, with a 16px original chevron at x309.07. */
+.precise-product .product-detail{right:10.4141414cqi;top:7.0707071cqi;width:18.8787879cqi;padding:0;letter-spacing:0}
+.precise-product .product-detail>span{position:absolute;left:0;top:0;line-height:17px;letter-spacing:0}
+.precise-product .product-detail>img{position:absolute;right:0;top:0;flex:none}
+
+.precise-product .product-actions{padding-left:6.0606061cqi;padding-right:5.7239057cqi}

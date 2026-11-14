@@ -1,0 +1,6 @@
+/* Keep the two decorative stars at their independent Figma coordinates. */
+.post-card.gift .post-star.one{left:214.73px;top:304.52px;right:auto;bottom:auto;width:92.382px;height:86.981px;transform:none}
+.post-card.gift .post-star.two{left:181.81px;top:358.52px;right:auto;bottom:auto;width:40.956px;height:37.795px;transform:rotate(68.75deg)}
+.post-card.self .post-star.one{left:214.05px;top:300.53px;right:auto;bottom:auto;width:92.853px;height:87.425px;transform:none}
+.post-card.self .post-star.two{left:180.97px;top:354.46px;right:auto;bottom:auto;width:41.165px;height:37.987px;transform:rotate(68.75deg)}
+.post-card.gift .post-decoration.left{left:29px;top:-54px;width:86px;height:85.27px;transform:rotate(-15deg);transform-origin:50% 75%;z-index:-1}

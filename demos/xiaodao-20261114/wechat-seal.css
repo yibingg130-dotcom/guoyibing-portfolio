@@ -1,0 +1,5 @@
+.wechat-gift .gift-art{width:231.186px;height:185.2px;isolation:isolate}
+.wechat-gift .wechat-envelope-crop{position:absolute;left:42.24px;top:2.66px;width:148.872px;height:182.542px;overflow:hidden;z-index:1}
+.wechat-gift .wechat-envelope-crop .gift-art-base{left:-5.598px;top:-10.514px;width:154.47px;height:193.093px;max-width:none;transform:none;object-fit:fill}
+.wechat-gift .gift-art-cat{left:110.62px;top:35.62px;width:25.739px;height:25.739px;transform:rotate(13.09deg);z-index:2}
+.wechat-gift .gift-art-gift{left:94.938px;top:70.752px;width:30.974px;height:43.686px;transform:rotate(15.11deg);transform-origin:center;object-fit:contain;z-index:3;pointer-events:none}
